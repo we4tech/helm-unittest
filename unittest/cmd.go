@@ -23,7 +23,7 @@ var cmd = &cobra.Command{
 	Short: "unittest for helm charts",
 	Long: `Running chart unittest written in YAML.
 
-This renders your charts locally (without tiller) and
+HELLO WORLD: This renders your charts locally (without tiller) and
 validates the rendered output with the tests defined in
 test suite files. Simplest test suite file looks like
 below:
